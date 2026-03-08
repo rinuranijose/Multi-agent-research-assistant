@@ -10,12 +10,12 @@ The system combines LLMs, agent orchestration, backend APIs, and a user interfac
 
 The project is built using the following technologies:
 
-**LLM:Ollama (phi3)
-**Agent Framework: LangGraph (stateful multi-agent workflow)
-**MCP:FastMCP client + server
-Backend:Django REST API
-Frontend:Streamlit
-Database:PostgreSQL
+LLM:Ollama (phi3),
+Agent Framework: LangGraph (stateful multi-agent workflow),
+MCP:FastMCP client + server,
+Backend:Django REST API,
+Frontend:Streamlit,
+Database:PostgreSQL,
 Cache:Redis
 
 ---

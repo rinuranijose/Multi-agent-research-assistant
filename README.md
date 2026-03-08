@@ -1,6 +1,6 @@
 Multi-Agent Research Assistant
 
-This project implements a Multi-Agent Research Assistant** that answers user queries using a coordinated workflow of AI agents and external tools.
+This project implements a Multi-Agent Research Assistant that answers user queries using a coordinated workflow of AI agents and external tools.
 
 The system combines LLMs, agent orchestration, backend APIs, and a user interface** to process research questions and return structured answers.
 
@@ -10,9 +10,9 @@ The system combines LLMs, agent orchestration, backend APIs, and a user interfac
 
 The project is built using the following technologies:
 
-LLM:Ollama (phi3)
-Agent Framework: LangGraph (stateful multi-agent workflow)
-MCP:FastMCP client + server
+**LLM:Ollama (phi3)
+**Agent Framework: LangGraph (stateful multi-agent workflow)
+**MCP:FastMCP client + server
 Backend:Django REST API
 Frontend:Streamlit
 Database:PostgreSQL

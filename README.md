@@ -1,8 +1,8 @@
-Multi-Agent Research Assistant
+# Multi-Agent Research Assistant
 
 This project implements a Multi-Agent Research Assistant that answers user queries using a coordinated workflow of AI agents and external tools.
 
-The system combines LLMs, agent orchestration, backend APIs, and a user interface** to process research questions and return structured answers.
+The system combines LLMs, agent orchestration, backend APIs, and a user interface to process research questions and return structured answers.
 
 ---
 

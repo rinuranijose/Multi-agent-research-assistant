@@ -45,27 +45,30 @@ The system processes a user question using multiple agents.
 User
   ↓
 Streamlit UI
-  ↓
+  ↓ HTTP Request
 Django REST API
   ↓
-Planner Agent (LangGraph)
+LangGraph
+  ↓
+Planner Agent (LLM decides plan)
   ↓
 Research Agent
   ↓
-MCP Tool Server
+MCP Client
   ↓
-LLM (Ollama - phi3)
+MCP Server (tool)
   ↓
-Final Answer
+Web search / data
+  ↓
+Answer returned
+  ↓
+Stored in PostgreSQL
+  ↓
+Cached in Redis
+  ↓
+Response → Streamlit UI
 ```
 
-Simplified flow:
-
-```
-User → Planner → Research → Answer
-```
-
----
 
 # How to Install Dependencies
 
